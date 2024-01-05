@@ -1,11 +1,11 @@
-# C3-tiny
+# ESP32 C3-tiny
 A Tiny but very functional DevBoard with Temperature/Moisture sensor and 5 programmable LEDs.
 
 ![](img/test-running.png)
 
 ## Why smaller?
 
-The official devboard from Espressif is crazy big for such a tiny module? I wantedto make something that leaves two rows on each side when put into a normal half-size breadboard, while testing out the C3 module. Also - I could make this as a christmas gift for my son since he studies electronics and likes RiscV? And then I could publish it as a starting point for others to design their own boards? Why not!
+The official devboard from Espressif is crazy big for such a tiny module? I wanted to make something that leaves two rows on each side when put into a normal half-size breadboard, while testing out the Espressif ESP32 C3 module. Also - I could make this as a christmas gift for my son since he studies electronics and likes RiscV? And then I could publish it as a starting point for others to design their own boards? Why not!
 
 ![](img/size-comparison.png)
 
