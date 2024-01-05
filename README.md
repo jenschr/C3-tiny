@@ -13,7 +13,13 @@ I won't say that the pinout isn't a bit messy (as not in correct order), but all
 
 ## Pinout
 
-ds
+![](img/C3-tiny-pinout.png)
+
+[*] All the module pins are broken out and some pins such as pin 18 + 19 is used for the USB connection. That means that you cannot connect anything to these if you want to use USB.
+
+[*] You also cannot use pins 6 (SDA) and 7 (SCL) for other things if you want to also use the SHT31 sensor connected to these pins (I2C Bus). Other I2C devices shopuld also be connected to these pins. Note that there are pullup resistors on these pins. If you keep this in mind, you can use the pins if you don't use I2C.
+
+[*] The Boot button may be used as an input - after startup has finished.
 
 ## Arduino usage
 

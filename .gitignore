@@ -1,4 +1,7 @@
 .DS_Store
+
+pcb/~C3-tiny.kicad_pcb.lck
+pcb/~C3-tiny.kicad_sch.lck
 pcb/fp-info-cache
 pcb/C3-tiny-backups/
 
